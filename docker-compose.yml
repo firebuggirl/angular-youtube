@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  angular:
+    hostname: localhost
+    container_name: angular-youtube
+    build: .
+    ports:
+      - 80:80
